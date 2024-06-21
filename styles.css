@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: rgba(51,85,68,0.724);
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section {
+    margin-bottom: 40px;
+    text-align: center;
+
+  }
+  
+  .intro p {
+    font-size: 18px;
+  }
+  
+  
+ /* Container to hold the images */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Adjust the gap value as needed */
+    justify-content: center;
+    
+  }
+  
+  /* Style for the images */
+  .content img {
+    border-radius: 15px; /* Makes the images round */
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Ensure the height matches the width to maintain a circle */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    caption-side: top;
+}
+.content caption{
+
+             gap: 20px;
+
+}
